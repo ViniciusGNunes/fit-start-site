@@ -1,0 +1,16 @@
+.numberInput {
+  /* Firefox */
+  -moz-appearance: textfield;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    background: white !important;
+    color: black !important;
+    border-radius: 4px;
+  }
+}
+
+input.btn-check:checked + label {
+  background-color: white;
+  color: black;
+}
